@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap.min.css.map">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-      <div class="nav-bar">
-          <img
-          class="logo"
-          src="./terra_bona_logo-removebg-preview.png"
-          alt="Terra Bona Logo"
-          />
-          <div class="langs">
+      <div class="nav-bar container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+                <img
+                class="logo img-fluid"
+                src="./terra_bona_logo-removebg-preview.png"
+                alt="Terra Bona Logo"
+                />
+            </div>
+          <div class="langs col-sm-4">
               <a class="lang" href="indexpt.html"> Português </a>
               <a class="lang" href="indexpt.html"> English </a>
               <a class="lang" href="indexpt.html"> Français </a>
             </div>
-            <div class="sign-up">
+            <div class="sign-up col-sm-4">
                 <form action="./loginpt.html" target="_blank">
                     <button class="login">
                         Login
@@ -34,6 +39,7 @@
                     </button>
                 </form>
             </div>
+        </div>
         </div>
             <div class="view-img">
                 <div class="parag">
@@ -128,6 +134,5 @@
                 </div>
             </section>
         </main>
-    </header>
   </body>
 </html>
